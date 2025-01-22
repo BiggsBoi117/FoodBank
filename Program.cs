@@ -3,6 +3,10 @@
 //Initialize program
 Console.WriteLine("Program Loading...");
 
+//Initialize instances and variables
+List<FoodItem> bankMemory = new List<FoodItem>();
+BankTools bankTools = new BankTools();
+
 //Print the menu
 Console.WriteLine("Welcome to the C# FoodBank!");
 Console.WriteLine("1. Add food item");
