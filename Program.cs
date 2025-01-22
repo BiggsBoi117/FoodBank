@@ -10,13 +10,13 @@ Console.WriteLine("2. Delete food item");
 Console.WriteLine("3. Print food items");
 Console.WriteLine("4. Exit");
 Console.Write("Enter your choice (1-4): ");
-string choice = Console.ReadLine();
 
 //Handle user input
 while (true)
 {
     try
     {
+        string choice = Console.ReadLine();
         int userChoice = int.Parse(choice);
         break;
     }
